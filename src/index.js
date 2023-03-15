@@ -21,7 +21,7 @@ const questions = [
       {
         name: `Send me an ${chalk.green.bold("email")}?`,
         value: () => {
-          open("mailto:ridermansb@gmail.com");
+          open("mailto:khoakomlem@gmail.com");
           console.log("\nDone, see you soon.\n");
         }
       },
@@ -36,19 +36,19 @@ const questions = [
 ];
 
 const data = {
-  name: chalk.bold.green("        Riderman de Sousa Barbosa"),
-  handle: chalk.white("@ridermansb"),
-  work: `${chalk.white("Senior Front-end Developer at")} ${chalk
+  name: chalk.bold.green("        Dau Van Dang Khoa"),
+  handle: chalk.white("@khoakomlem"),
+  work: `${chalk.white("Developer at")} ${chalk
     .hex("#341f7c")
-    .bold("SecurityScorecard")}`,
-  blog: chalk.gray("https://medium.com/") + chalk.whiteBright("@ridermansb"),
-  twitter: chalk.gray("https://twitter.com/") + chalk.cyan("ridermansb"),
-  npm: chalk.gray("https://npmjs.com/") + chalk.red("~ridermansb"),
-  github: chalk.gray("https://github.com/") + chalk.green("ridermansb"),
-  linkedin: chalk.gray("https://linkedin.com/in/") + chalk.blue("ridermansb"),
-  web: chalk.cyan("https://about.me/ridermansb"),
-  npx: chalk.red("npx") + " " + chalk.white("ridermansb"),
-  wakatime: chalk.gray("https://wakatime.com/") + chalk.black("@ridermansb"),
+    .bold("KB2A")}`,
+  blog: chalk.gray("https://facebook.com/") + chalk.whiteBright("khoakomlem"),
+  twitter: chalk.gray("https://twitter.com/") + chalk.cyan("khoakomlem"),
+  npm: chalk.gray("https://npmjs.com/") + chalk.red("~khoakomlem"),
+  github: chalk.gray("https://github.com/") + chalk.green("khoakomlem"),
+  linkedin: chalk.gray("https://linkedin.com/in/") + chalk.blue("khoakomlem"),
+  web: chalk.cyan("https://about.me/khoakomlem"),
+  npx: chalk.red("npx") + " " + chalk.white("khoakomlem"),
+  wakatime: chalk.gray("https://wakatime.com/") + chalk.yellow("@khoakomlem"),
 
   labelWork: chalk.white.bold("       Work:"),
   labelBlog: chalk.white.bold("     Medium:"),
@@ -71,13 +71,13 @@ const me = boxen(
     `${data.labelnpm}  ${data.npm}`,
     `${data.labelGitHub}  ${data.github}`,
     `${data.labelLinkedIn}  ${data.linkedin}`,
-    `${data.labelWeb}  ${data.web}`,
     `${data.labelWakatime}  ${data.wakatime}`,
+    `${data.labelWeb}  ${data.web}`,
     ``,
     `${data.labelCard}  ${data.npx}`,
     ``,
     `${chalk.italic(
-      "I'm curious, enthusiastic and student most of the time."
+      "I'm curious, enthusiastic, interesting in mystical philosophy."
     )}`,
     `${chalk.italic("The rest of the time I write code that others can read.")}`
   ].join("\n"),
